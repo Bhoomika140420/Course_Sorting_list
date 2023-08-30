@@ -9,11 +9,11 @@ const courses = [
     },
     {
       name: "Complete MERN course",
-      price: "2.2",
+      price: "2.",
     },
     {
       name: "Complete C++ course",
-      price: "2.6",
+      price: "2.8",
     },
     {
       name: "Django Course",

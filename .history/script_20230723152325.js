@@ -1,19 +1,19 @@
 const courses = [
     {
       name: "Complete ReactJS course",
-      price: "2.9",
+      price: "2.3",
     },
     {
       name: "Complete Angular course",
-      price: "2.5",
+      price: "2.1",
     },
     {
       name: "Complete MERN course",
-      price: "2.2",
+      price: "2.7",
     },
     {
       name: "Complete C++ course",
-      price: "2.6",
+      price: "2.8",
     },
     {
       name: "Django Course",

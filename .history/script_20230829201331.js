@@ -61,6 +61,7 @@ const courses = [
     if (button.innerHTML == "Sort courses")  {
     courses.sort((a, b) => a.price - b.price);
     
+    
     button.innerHTML= "Shuffle courses";
     } else{
       courses.sort( () => .4 - Math.random() );

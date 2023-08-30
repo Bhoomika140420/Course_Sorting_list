@@ -57,17 +57,11 @@ const courses = [
   window.addEventListener("load", generateLIST);
   
   const button = document.querySelector(".sort-btn");
-  button.addEventListener( "click" , () => {
-    if (button.innerHTML == "Sort courses")  {
+  button.addEventListener("click", () => {
     courses.sort((a, b) => a.price - b.price);
-    
-    button.innerHTML= "Shuffle courses";
-    } else{
-      courses.sort( () => .4 - Math.random() );
-      button.innerHTML= "Sort courses";
-    }
     generateLIST();
+    button.innerHTML= "Shuffle Price";
   });
 
-
+  
   
